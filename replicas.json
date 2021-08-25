@@ -1,0 +1,14 @@
+[
+  {
+    "image": "IMAGE",
+    "cpuUsageLimit": 1.0,
+    "memoryUsageLimit": 500,
+    "accessId": "SERVICE_ID",
+    "sqs": {
+      "name": "QUEUE_NAME",
+      "secretAccessKey": "SECRET_ACCESS_KEY",
+      "accessKeyId": "ACCESS_KEY_ID"
+    },
+    "limitOfReplicas": 10
+  }
+]

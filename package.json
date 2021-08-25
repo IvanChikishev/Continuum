@@ -1,0 +1,25 @@
+{
+  "name": "Continuum",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node --no-warnings --experimental-modules --experimental-json-modules src/index.js | pino-pretty",
+    "debug": "node test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.975.0",
+    "dockerode": "^3.3.0",
+    "pino": "^6.13.1",
+    "pino-pretty": "^6.0.0",
+    "bluebird": "^3.7.2"
+  },
+  "devDependencies": {
+    "prettier": "^2.3.2"
+  }
+}
